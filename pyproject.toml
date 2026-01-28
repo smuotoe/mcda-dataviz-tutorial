@@ -1,0 +1,37 @@
+[project]
+name = "mcda-data-visualization-tutorial"
+version = "1.0.0"
+description = "MCDA 5511: Python Data Visualization Tutorial with Matplotlib, Seaborn & Plotly"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.8.0",
+    "seaborn>=0.13.0",
+    "plotly>=5.18.0",
+    "numpy>=1.26.0",
+    "pandas>=2.1.0",
+    "kaleido>=0.2.1",
+    "statsmodels>=0.14.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ipykernel>=6.29.0",
+    "ipywidgets>=8.1.0",
+    "ruff>=0.1.0",
+    "mypy>=1.8.0",
+    "pytest>=8.0.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "C4", "SIM"]
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_ignores = true
+disallow_untyped_defs = true
