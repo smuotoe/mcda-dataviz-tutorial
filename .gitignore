@@ -48,6 +48,10 @@ coverage.xml
 # Node.js
 node_modules/
 
+# Build outputs
+slides/dist/
+slides/dist-gh/
+
 # Generated verification output (can be regenerated)
 slides/verification_output/
 

@@ -4,6 +4,8 @@
 
 A tutorial on Python data visualization covering Matplotlib, Seaborn, and Plotly.
 
+**[View Slides](https://smuotoe.github.io/mcda-dataviz-tutorial/)** | [Cloudflare Mirror](https://mcda-dataviz-tutorial.pages.dev/)
+
 ## Setup
 
 ```bash
