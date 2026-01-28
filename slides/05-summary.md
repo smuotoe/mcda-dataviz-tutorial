@@ -171,45 +171,37 @@ layout: default
 
 # Practice Exercises
 
-<div class="text-sm opacity-70 mb-3">Hands-on exercises to practice what you have learned.</div>
+<div class="text-sm opacity-70 mb-3">Apply what you learned to analyze real datasets.</div>
 
 <div class="grid grid-cols-2 gap-4 text-sm">
 
 <div>
 
-### Exercise 1: Matplotlib Basics
-- Create a line plot of a sine wave
-- Add axis labels and title
-- Save as PNG with 300 DPI
+### Part 1: Sales Data
+- Which region has highest revenue?
+- Revenue trends over time
+- Compare profit margins by product
 
-### Exercise 2: Multiple Plots
-- Create a 2x2 subplot grid
-- Add different plot types to each
-- Use `tight_layout()` for spacing
-
-### Exercise 3: Seaborn Statistical
-- Load the penguins dataset
-- Create a boxplot by species
-- Add a hue for sex
+### Part 2: Weather Data
+- Temperature distributions by city
+- Humidity vs precipitation correlation
+- Weather variable heatmap
 
 </div>
 
 <div>
 
-### Exercise 4: Seaborn Correlation
-- Compute correlation matrix
-- Create annotated heatmap
-- Use diverging colormap
+### Part 3: Experiment Data
+- Dose-response curves with error bars
+- Visualize statistical significance
+- Compare treatments at highest dose
 
-### Exercise 5: Plotly Interactive
-- Create scatter with hover data
-- Add color by category
-- Export as HTML
+### Part 4: Interactive (Plotly)
+- Interactive sales explorer
+- Animated weather comparison
 
-### Exercise 6: Plotly Animation
-- Use gapminder dataset
-- Animate through years
-- Fix axis ranges
+### Part 5: Challenge
+- Tell a story with one figure
 
 </div>
 
@@ -217,7 +209,7 @@ layout: default
 
 <div class="mt-4 p-3 border rounded text-sm">
 
-**File**: `exercises/visualization-exercises.ipynb` - Open in Jupyter Notebook or VS Code
+**File**: `exercises/visualization-exercises.ipynb` - Uses project datasets in `data/`
 
 </div>
 
