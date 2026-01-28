@@ -45,7 +45,7 @@ fig.show()
 
 <div>
 
-<iframe src="/plotly/plotly_scatter_tips.html" class="w-full h-80 border rounded"></iframe>
+<iframe src="./plotly/plotly_scatter_tips.html" class="w-full h-80 border rounded"></iframe>
 
 </div>
 
@@ -90,7 +90,7 @@ fig = px.scatter(
 
 <div>
 
-<iframe src="/plotly/plotly_scatter.html" class="w-full h-80 border rounded"></iframe>
+<iframe src="./plotly/plotly_scatter.html" class="w-full h-80 border rounded"></iframe>
 
 </div>
 
@@ -131,7 +131,7 @@ fig = px.line(
 
 <div>
 
-<iframe src="/plotly/plotly_line.html" class="w-full h-80 border rounded"></iframe>
+<iframe src="./plotly/plotly_line.html" class="w-full h-80 border rounded"></iframe>
 
 </div>
 
@@ -171,7 +171,7 @@ fig = px.bar(
 
 <div>
 
-<iframe src="/plotly/plotly_bar.html" class="w-full h-80 border rounded"></iframe>
+<iframe src="./plotly/plotly_bar.html" class="w-full h-80 border rounded"></iframe>
 
 </div>
 
@@ -215,7 +215,7 @@ fig = px.scatter(
 
 <div>
 
-<iframe src="/plotly/plotly_animation.html" class="w-full h-80 border rounded"></iframe>
+<iframe src="./plotly/plotly_animation.html" class="w-full h-80 border rounded"></iframe>
 
 <div class="text-xs text-center mt-1 opacity-70">Press play or drag the slider</div>
 
@@ -258,7 +258,7 @@ fig = px.scatter_3d(
 
 <div>
 
-<iframe src="/plotly/plotly_3d.html" class="w-full h-80 border rounded"></iframe>
+<iframe src="./plotly/plotly_3d.html" class="w-full h-80 border rounded"></iframe>
 
 </div>
 
