@@ -1,1 +1,0 @@
-import{o as t,e as o,i as s}from"../modules/vue-pLxyOTZ-.js";import{b as a}from"../index-DuosTZQ-.js";const l={},c={class:"slidev-layout default"};function r(e,d){return t(),o("div",c,[s(e.$slots,"default")])}const u=a(l,[["render",r],["__file","C:/Users/Somto/Documents/mcda-dataviz-tutorial/slides/node_modules/@slidev/client/layouts/default.vue"]]);export{u as I};
