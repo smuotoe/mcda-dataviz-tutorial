@@ -7,8 +7,8 @@ A tutorial on Python data visualization covering Matplotlib, Seaborn, and Plotly
 ## Setup
 
 ```bash
-git clone <repository-url>
-cd mcda-data-visualization-tutorial
+git clone https://github.com/smuotoe/mcda-dataviz-tutorial.git
+cd mcda-dataviz-tutorial
 uv sync
 ```
 
@@ -32,7 +32,3 @@ Open http://localhost:3030 in your browser.
 ├── pyproject.toml
 └── README.md
 ```
-
-## Author
-
-Somto Muotoe
