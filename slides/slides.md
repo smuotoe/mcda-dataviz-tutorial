@@ -15,13 +15,24 @@ background: /images/00-title.jpg
 class: text-center
 ---
 
-<div class="absolute inset-0 bg-black/50"></div>
+<style scoped>
+h1 {
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.6);
+}
+@media print {
+  h1 {
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9) !important;
+  }
+}
+</style>
+
+<div class="absolute inset-0 bg-black/60"></div>
 
 <div class="relative z-10">
 
 <div class="text-xs uppercase tracking-[0.3em] opacity-70 mb-4">MCDA 5511 TUTORIAL</div>
 
-<h1 class="!text-5xl font-bold tracking-tight !leading-tight text-white drop-shadow-lg">Python Data Visualization</h1>
+<h1 class="!text-5xl font-bold tracking-tight !leading-tight text-white">Python Data Visualization</h1>
 
 <p class="text-xl opacity-90 mt-4 text-white">Matplotlib, Seaborn & Plotly</p>
 
